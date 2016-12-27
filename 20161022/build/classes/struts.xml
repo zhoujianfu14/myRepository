@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!-- 开启动态调用方法了 -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <!-- 开发模式 -->
+    <constant name="struts.devMode" value="false"/>
+    <!-- 自动加载配置 -->
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    <!-- 编码 -->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <!-- 设置上传文件的大小 -->
+    <constant name="struts.multipart.maxSize" value="20971520000"/>
+    <!-- 修改后缀 
+    <constant name="struts.action.extension" value="do"/>
+    -->
+    <package name="default" extends="struts-default" namespace="/">
+         <global-results>
+             <result name="input">/input.jsp</result>
+         </global-results>
+    </package>
+</struts>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

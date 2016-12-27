@@ -1,0 +1,14 @@
+<ehcache>
+
+    <diskStore path="c:/zmx"/>
+
+    <defaultCache
+        maxElementsInMemory="10000"
+        eternal="false"
+        timeToIdleSeconds="300"
+        timeToLiveSeconds="600"
+        overflowToDisk="true"
+        />
+    
+
+</ehcache>

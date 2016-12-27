@@ -1,0 +1,11 @@
+$(function(){
+	$('#dg').datagrid({  
+	    url:'zmx/testShow',  
+	    columns:[[  
+            {field:'eid',hidden:true},  
+	        {field:'username',title:'姓名',width:100},  
+	        {field:'sex',title:'性别',width:100},  
+	        {field:'age',title:'年龄',width:100,align:'right'}  
+	    ]]  
+	});
+})
